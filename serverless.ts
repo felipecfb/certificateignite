@@ -1,7 +1,5 @@
 import type { AWS } from '@serverless/typescript';
 
-import hello from '@functions/hello';
-
 const serverlessConfiguration: AWS = {
   service: 'certificateignite',
   frameworkVersion: '3',
@@ -19,7 +17,7 @@ const serverlessConfiguration: AWS = {
     },
   },
   // import the function via paths
-  functions: { hello },
+  functions: {  },
   package: { individually: true },
   custom: {
     esbuild: {

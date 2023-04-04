@@ -1,5 +1,4 @@
 {
-  "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "lib": ["ESNext"],
     "moduleResolution": "node",
@@ -18,7 +17,4 @@
     "_warmup/**/*",
     ".vscode/**/*"
   ],
-  "ts-node": {
-    "require": ["tsconfig-paths/register"]
-  }
 }
